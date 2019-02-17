@@ -1,0 +1,173 @@
+.dropzone .dz-preview .dz-progress {
+	margin-top: 10px;
+}
+#signup 
+#signup select:required:invalid {
+	color: gray;
+  }
+#signup option[value=""][disabled] {
+	display: none;
+}
+#signup option {
+	color: black;
+}
+#add-property #cke_26{
+	display: none;
+}
+#add-property #cke_22{
+	display: none;
+}
+.error {
+	color: red;
+	font-size: 90%;
+}
+.form-box .select2-container--default .select2-selection--single,
+.form-box .select2-container--default .select2-selection--single .select2-selection__rendered,
+.form-box .select2-container--default .select2-selection--single .select2-selection__arrow {
+	line-height: 42px !important;
+    height: 42px !important;
+}
+.form-box .select2-container {
+	width: 100% !important;
+}
+.gmap_marker .address-map .address-map-img {
+	height: 200px;
+	width: 40%;
+}
+.gmap_marker .address-map .address-map-date {
+	width: 60%;
+}
+.address-map-img img {
+	width: 100%;
+}
+.hero-map .search-properties {
+	bottom: 0;
+}
+.owl-carousel .owl-item img {
+	height: 250px;
+}
+#properties-grid .carousel-inner>.item>a>img, .carousel-inner>.item>img, 
+#properties-grid .img-responsive, .thumbnail a>img, .thumbnail>img {
+	width: 100%;
+    height: 250px;
+}
+.pagination>.active>span {
+	background: #64ddbb;
+}
+.output--img {
+	height: 100%;
+}
+.preview--img:before {
+	display: none;
+}
+.user-dropdown li.has-dropdown > a:before {
+	display: none;
+}
+.user-dropdown .navbar-nav > li.has-dropdown > a:after, li.dropdown-submenu > a:after {
+	display: none;
+}
+#navbar-spy #primary-menu .navbar-left li.has-dropdown > a:before {
+	color: #222222;
+}
+#navbar-spy .avatar {
+	margin-right: 15px;
+}
+#navbar-spy .avatar image {
+	margin-bottom: 10px;
+}
+.property-item .edit--btn {
+	right: 15px;
+}
+.property-item .edit--btn.edit {
+	top: 15px;
+}
+.property-item .edit--btn.delete {
+	top: 55px;
+}
+.property-item .edit--btn.delete i {
+	font-size: 18px;
+}
+#my-properties img {
+	width: 100%;
+	height: 250px;
+}
+.user-dropdown .fullname {
+	font-weight: bold;
+}
+.property-review li .avatar {
+	background-color: inherit;
+}
+.fileuploader {
+	background: slategray;
+	color: #fff;
+	margin-top: 50px;
+}
+.image-property {
+	position: relative;
+}
+.image-property span {
+	position: absolute;
+	right: 25px;
+    top: 5px;
+	color: #64ddbb;
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+.image-property img {
+	height: 180px;
+}
+.fileuploader-items .fileuploader-item .column-title {
+	color: #fff;
+}
+#admin .rentmotel .searchForm {
+	margin-bottom: 15px;
+}
+#admin .searchForm .select2-container .select2-selection--single,
+#admin #usertype + .select2-container .select2-selection--single {
+	height: 34px;
+	border-radius: initial;
+}
+#admin .rentmotel #DataTablesRentMotel tr td:first-child,
+#admin .rentmotel #DataTablesComment tr td:first-child,
+#admin .rentmotel #DataTablesFindPeople tr td:first-child,
+#admin .rentmotel #DataTablesUser tr td:first-child
+{
+	text-align: right;
+}
+.blog-entry .entry--img img {
+	width: 100%;
+}
+.blog.blog-grid .blog-entry .entry--img img {
+	height: 250px;
+}
+.blog-entry .entry--bio {
+	overflow: hidden;
+    text-overflow: ellipsis;
+}
+@media only screen and (min-width: 991px){
+	.user-dropdown .has-dropdown {
+		width: 50px;
+		margin: 0 auto;
+	}
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	.user-dropdown .navbar-nav {
+		padding: 0;
+	}
+	#primary-menu .user-dropdown .nav>li>a>img {
+		width: 100px;
+		transform: translate(-50%);
+		margin-left: 50%;
+	}
+}
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+	.header-fixed .navbar.affix .navbar-nav > .user-dropdown > li:last-child > a {
+		width: 50px;
+		padding: 5px;
+	}
+	#primary-menu .user-dropdown .nav>li>a>img {
+		width: 100px;
+		transform: translate(-50%);
+		margin-left: 50%;
+	}
+}
